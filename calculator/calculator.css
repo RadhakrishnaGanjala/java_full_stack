@@ -1,0 +1,97 @@
+*{
+    background-color: rgba(103, 100, 72, 0.164);
+}
+.container{
+    /* border: 2px solid black; */
+    /* margin: 20px; */
+    height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.calculator{
+    border: 2px solid rgb(3, 0, 0);
+    background-color: rgba(91, 92, 95, 0.263);
+    border-radius: 15px;
+    height: 65vh;
+    width: 55vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.screen{
+    border: 2px solid rgb(7, 1, 10);
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    align-content:center;
+    height: 17vh;
+    width: 52vh;
+    font-size: xx-large;
+    text-align: right;
+
+}
+.keyboard{
+    border: 2px solid black;
+    /* align-items: center; */
+    align-content:center ;
+    border-radius: 15px;
+    height: 42vh;
+    width: 52vh;
+    background-color: darkgray;
+}
+.row1{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    background-color: darkgray;
+}
+.row2{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    background-color: darkgray;
+}
+.row3{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    background-color: darkgray;
+}
+.row4{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    background-color: darkgray;
+}
+.row5{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    background-color: darkgray;
+}
+button{
+    background-color: rgb(211, 225, 225);
+    font-weight: bold;
+    height: 47px;
+    width: 42px;
+    border-radius: 100%;
+    font-size: large;
+}
+div{
+    border-radius: 50%;
+}
+
